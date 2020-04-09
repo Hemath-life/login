@@ -1,0 +1,95 @@
+body
+{
+    margin: 2% 8%;
+    color: darkslategray;
+    background: url("205609.jpg");
+    background-size: cover;
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
+}
+.login-form
+{
+    padding: 8%;
+    background-color: rgb(238, 237, 243);
+}
+.login-title
+{
+    font-size: 3rem;
+    color: chocolate;
+    font-family: cursive;
+    line-height: 4rem ;
+}
+.login-title-discription
+{
+    padding-bottom: 10%;
+   
+}
+.login-title,.login-title-discription
+{
+    text-align: center;
+}
+/* username */
+.label
+{
+    display: block;
+    padding-left: 5%;
+    /* margin-bottom: 0; */
+}
+.input{
+    background-color: rgb(231, 227, 227);
+    padding-left: 4%;
+    border: 0;
+}
+.Continue,.input
+{
+width: 100%;
+height:40px;
+border-radius: 20px;
+
+}
+
+/* password */
+.Continue,.input
+{
+    margin-bottom: 7%;   
+    width: 100%;
+
+}
+.password
+{
+    margin-bottom: 0;
+}
+.pass-link1
+{
+ padding-left: 7.3rem;
+}
+/* Continue */
+
+.Continue
+{
+    margin-top: 6%;
+background-color:chocolate;
+}
+/* footer-description */
+.footer-description,.Continue
+{
+    text-align: center;
+}
+.checkbox
+{
+    margin-top: 0;
+margin-left: 3%;
+}
+a{
+    color: chocolate;
+}
+@media (max-width: 1028px)
+{
+.login-form
+{
+    margin: 5% 5%;
+}
+}
