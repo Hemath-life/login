@@ -80,7 +80,7 @@ background-color:chocolate;
 }
 .checkbox
 {
-    margin-top: 0;
+margin-top: 0;
 margin-left: 3%;
 }
 a{
@@ -88,6 +88,9 @@ a{
 }
 @media (max-width: 1028px)
 {
+    border-style: {
+        margin:5% 5%;
+    };
 .login-form
 {
     margin: 5% 5%;
